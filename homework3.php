@@ -32,6 +32,8 @@ try {
 	$indexNum =0;
 	While ($indexNum<$x)
 	{
+		echo 'question ';
+		echo $indexNum+1;
 		print "<table> \n";
 		$result = $connect->query($sql[$indexNum]);
 
